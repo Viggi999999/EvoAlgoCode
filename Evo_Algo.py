@@ -1,7 +1,7 @@
 
 
 """
-Note: You havve to connect your Qiskit IBM Account to be able to use this.
+Note: You have to connect your Qiskit IBM Account to be able to use this.
 Here is some intuition on what the code does:
     ansatz_ckt : Create the ansatz we're testing on algorithms on
     MKCircuit  : Create the entire circuit along with qubits and gates required at the input
@@ -337,5 +337,6 @@ if __name__ == "__main__":
     final_weights = hybrid_training(qnn_qc, input_params, weights, qrnn_epochs, cma_es_activation)
 
     # final_weights now hold the optimized weights after hybrid training
+
 
 
